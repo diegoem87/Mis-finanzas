@@ -1,14 +1,3 @@
-
-
-Ir al contenido
-Uso de Gmail con lectores de pantalla
-Conversaciones
-Estás usando el 40 % de 15 GB
-Términos · Privacidad · Política del programa
-Última actividad de la cuenta: hace 1 hora
-Detalles
-gemini-code-1792740798351.py
-100 %
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
@@ -521,8 +510,8 @@ st.markdown("""
 activar_navegacion_flechas()
 
 # ----------------- LOGIN -----------------
-USUARIO_CORRECTO = "mama"
-PASSWORD_CORRECTO = "terapias123"
+USUARIO_CORRECTO = "diego"
+PASSWORD_CORRECTO = "diegoem87"
 
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
@@ -1386,4 +1375,3 @@ with pestana2:
             st.dataframe(tabla_d, use_container_width=True, hide_index=True)
     else:
         st.info("No hay inversiones activas para mostrar en los gráficos.")
-Mostrando gemini-code-1792740798351.py.
