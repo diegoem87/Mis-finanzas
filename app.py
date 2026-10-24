@@ -510,8 +510,8 @@ st.markdown("""
 activar_navegacion_flechas()
 
 # ----------------- LOGIN -----------------
-USUARIO_CORRECTO = "mama"
-PASSWORD_CORRECTO = "terapias123"
+USUARIO_CORRECTO = "diego"
+PASSWORD_CORRECTO = "diegoem87"
 
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
