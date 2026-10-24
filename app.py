@@ -10,7 +10,7 @@ from datetime import datetime, timezone, timedelta
 st.set_page_config(
     page_title="Jardín Financiero",
     layout="wide",
-    page_icon="🌿"
+    page_icon="📈"
 )
 
 DATA_FILE = "datos_finanzas.json"
