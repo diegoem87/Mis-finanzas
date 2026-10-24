@@ -8,7 +8,7 @@ import os
 from datetime import datetime, timezone, timedelta
 
 st.set_page_config(
-    page_title="Jardín Financiero",
+    page_title="Mis finanzas",
     layout="wide",
     page_icon="📈"
 )
